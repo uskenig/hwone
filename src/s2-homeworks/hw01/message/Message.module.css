@@ -1,9 +1,30 @@
 .message {
+    display: flex;
+    align-items: flex-end;
+
+    margin: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.content {
+    padding: 10px;
+
+    border-radius: 5px 5px 5px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.imageAndText {
 
 }
 
-.imageAndText {
-
+.angle {
+    width: 15px;
+    height: 15px;
 }
 
 .imageAndText img {
@@ -11,7 +32,9 @@
 }
 
 .text {
-
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
 }
 
 .text:after {
@@ -27,5 +50,7 @@
 }
 
 .time {
-
+    display: flex;
+    justify-content: flex-end;
+    color: #cc9c00;
 }
