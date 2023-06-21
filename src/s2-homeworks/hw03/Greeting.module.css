@@ -27,7 +27,7 @@
 .errorInput {
     margin: 10px;
     background: antiquewhite;
-    color: #DDEEFF;
+    color: cadetblue;
 
     border: black;
     outline: none;
@@ -38,17 +38,17 @@
     width: 60px;
 
     background: antiquewhite;
-    color: #DDEEFF;
+    color: cadetblue;
     outline: none;
 }
 
 .button:focus {
-    outline: #DDEEFF solid 1px;
+    outline: cadetblue solid 1px;
 
 }
 
 .button:active {
-    background: #DDEEFF;
+    background: cadetblue;
 }
 
 .button:disabled {
