@@ -1,20 +1,37 @@
 .input:focus {
+    outline: none;
+    border: aquamarine;
 }
 
 .input {
+    background: aquamarine;
 }
 
 .inputWrapper {
+    color: darkgoldenrod;
 }
 
 .superInput {
+    margin: 10px;
+    background: cadetblue;
+    color: aquamarine;
 }
 
 .errorInput {
+    margin: 10px;
+    background: cadetblue;
+    color: aquamarine;
+    border: 2px solid crimson;
 }
 
 .errorInput:focus {
+    color: aquamarine;
+    border: 2px solid crimson;
 }
 
+
 .error {
+    margin-left: 10px;
+    height: 21px;
+    color: crimson;
 }

@@ -1,22 +1,41 @@
 .button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
 }
 
 .disabled {
+    background: darkgray;
 }
 
 .secondary {
 }
 
 .default {
+    background: darkslategrey;
+    color: aquamarine;
+    outline: none;
 }
 
 .red {
+    background: #cc0000;
 }
 
 .default:hover {
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -100vw;
+    top: 0;
+    height: 100vh;
+
 }
 
 .red:hover {
+
 }
 
 .secondary:hover {
