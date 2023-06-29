@@ -1,7 +1,16 @@
 .sidebar {
+    height: 100%;
+    width: 350px;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: lightblue;
 }
 
 .sidebar.open {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
 }
 
 .background {

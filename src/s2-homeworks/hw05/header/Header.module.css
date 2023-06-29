@@ -1,8 +1,12 @@
 .burgerMenuIcon {
+    width: 22px;
+    height: 22px;
 }
 
 .header {
+    background-color: antiquewhite;
 }
 
 .header h1 {
+    color: darkgoldenrod;
 }
